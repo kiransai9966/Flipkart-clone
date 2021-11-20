@@ -1,0 +1,309 @@
+@import url("https://pro.fontawesome.com/releases/v5.10.0/css/all.css");
+@import url("https://fonts.googleapis.com/css2?family=Roboto:ital@1&display=swap");
+*{
+    box-sizing: border-box;
+    padding: 0%;
+    margin:0%;
+}
+body{
+    background-color: #fff;
+    
+}
+
+#headerBlock{
+    background-color: #2874f0;
+    height: 56px;
+}
+
+#headerBlock article{
+    width: 80%;
+    margin: 0 auto;
+    display: flex;
+    height: 56px;
+    align-items: center;
+  
+}
+
+.leftBlock{
+    flex-basis: 67%;
+    display: flex;
+    justify-content: flex-start;
+}
+.rightBlock{
+    flex-basis: 33%;
+    display: flex;
+    justify-content: flex-end;
+}
+
+.logoBlock img {
+    width: 75px;
+    
+}
+.logoBlock a {
+    text-decoration: none;
+    font-style: italic;
+    font-size: 11px;
+}
+.exploreBlock span:nth-child(1){
+    color: #fff;
+}
+.exploreBlock span:nth-child(2){
+    color: #ffe500;
+    font-weight: bold;
+    margin-right: 2px;
+}
+.exploreBlock img{
+    width: 9px;
+    position: relative;
+    top: -2px;
+    left: -2px;
+}
+.exploreBlock{
+    margin-top: -2px;
+}
+
+.searchBlock{
+   flex-basis: 80%;
+   display: flex;
+   justify-content: flex-end;
+}
+.searchBlock input{
+    width: 98%;
+    padding: 9px;
+}   
+.iconBlock{
+    position: relative;
+    display: flex;
+}
+
+.iconBlock i{
+    position: absolute;
+    color: #2874f0;
+    margin-left: -28px;
+    margin-top: 12px;
+}
+.rightBlock nav > ul {
+    display: flex;
+    list-style: none;
+   
+}
+.rightBlock nav > ul > li {
+ margin: 0 20px;
+ position: relative;
+   
+}
+
+
+
+.rightBlock nav  >  ul > li >  a{
+    text-decoration: none;
+    color: #efefef;
+    display: inline-block;
+    padding: 20px 0;
+    
+}
+/* .rightBlock nav > ul > li:nth-child(1){
+    background-color: #fff;
+    height: 10px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  
+} */
+    /* .rightBlock > ul > li > a{
+        display: flex;
+        align-items: center;
+        justify-content: center;
+    } */
+.products{
+    background-color: white;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+}
+.products img{
+    width: 100%;
+    height: 90px;
+    padding: 10px;
+}
+.products a{
+    text-decoration: none;
+   color: black;
+    font-weight: bold;
+    
+}
+.products p{
+    display: flex;
+    justify-content: center;
+    margin-top: -10px;
+}
+.midimg img{
+    margin-top: 10px;
+    width: 100%;
+}
+.dealoftheday{
+    display: flex;
+    background-color: #efefef;
+    height: 56px;
+    justify-content: center;
+    align-items: center;
+}
+.dealoftheday .leftdeal{
+    display: flex;
+    flex-basis: 40%;
+    align-items: center;
+}
+.dealoftheday .rightdeal{
+    display: flex;
+    align-items: center;
+    justify-content: flex-end;
+    flex-basis: 50%;
+
+}
+.dealoftheday .rightdeal a{
+    text-decoration: none;
+    color: white;
+    background-color: #2874f0;
+    height: 35px;
+    width: 20%;
+    align-items: center;
+    display: flex;
+    justify-content: center;
+}
+.deals{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+}
+.deals a{
+    text-decoration: none;
+
+}
+.deals img {
+    width: 100%;
+    height: 150px;
+}
+.mens{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+}
+.mens a{
+text-decoration: none;
+}
+.mens img {
+    width: 100%;
+    height: 100px;
+}
+.rightBlock ul li {
+    list-style: none;
+}
+.dropdown{
+    position: absolute;
+    margin-top: -5px;
+    background-color: white;
+    width: 200px;
+    display: none;
+    border: 1px solid #efefef;
+    margin-left: -78px;
+    
+  
+}
+.dropdown li {
+    padding: 10px 0;
+}
+.dropdown li a{
+    display: block;
+    text-decoration: none;
+    border-bottom: 1px solid #efefef;
+    display: flex;
+    justify-content: center;
+}
+.rightBlock nav ul li:hover > ul {
+    display: block;
+}
+
+.triangleBlock{
+    display: flex;
+    justify-content: center;
+}
+.triangle{
+    border-bottom: 12px solid white;
+    width: 0;
+    height: 0;
+    border-left: 12px solid transparent;
+    border-right: 12px solid transparent;
+    margin-top: -10px;
+    position:absolute;
+}
+
+#megamenuBlock{
+    width: 100%;
+    background-color: #fff;
+    border-bottom: 1px solid #ccc;
+    height: 45px;
+}
+#megamenuBlock article{
+    width: 80%;
+    margin: 0 auto;
+}
+#megamenuBlock > article > nav > ul {
+    display: flex;
+    height: 45px;
+    list-style: none;
+    align-items: center;
+    justify-content: flex-start;
+    
+}
+#megamenuBlock > article > nav > ul > li{
+    flex-basis: 20%;
+    display: flex;
+    justify-content: center;
+}
+#megamenuBlock > article > nav > ul > li > a{
+    text-decoration: none;
+}
+.megamenuContainer{
+    position: absolute;
+    background-color: #fff;
+    width: 80%;
+    height: 75vh;
+    margin-top: 30px;
+    display: none;
+    right: 100px;
+}
+.innerMenu{
+    flex-basis:20%;
+    padding: 10px ;
+
+}
+.innerMenu:nth-child(even){
+    background-color: #efefef;
+}
+.innerMenu:nth-child(odd){
+    background-color: #fff;
+}
+.innerMenu ul {
+    list-style: none;
+    display: flex;
+    flex-direction: column;
+    padding: 20px 0;
+}
+.innerMenu ul li{
+    padding: 15px 0;
+}
+
+.innerMenu ul li a{
+    text-decoration: none;
+    color: #222222;
+    padding: 20px;
+    display: block;
+    font-size: 25px;
+}
+.innerMenu ul li:nth-child(1) {
+    font-weight: bold;
+    color: #111;
+}
+#megamenuBlock > article > nav > ul > li:hover>  .megamenuContainer{
+    display: flex;
+}
